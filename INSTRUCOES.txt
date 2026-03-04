@@ -1,0 +1,16 @@
+Projeto – Relatório PSC (Streamlit)
+
+1. Pré-requisitos:
+- Docker instalado.
+
+2. Para baixar a imagem do relatório:
+
+docker pull 869919305101.dkr.ecr.us-east-1.amazonaws.com/projeto-python:relatorio
+
+3. Para executar o contêiner:
+
+docker run -p 8501:8501 869919305101.dkr.ecr.us-east-1.amazonaws.com/projeto-python:relatorio
+
+4. Acessar no navegador:
+
+http://localhost:8501
